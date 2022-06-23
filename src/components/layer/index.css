@@ -1,0 +1,26 @@
+.layer {
+    position: absolute;
+    z-index: 100;
+    left: 20px;
+    bottom: 20px;
+    padding: 8px;
+    background-color: #fff;
+    text-align: left;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.con-layer {
+    display: flex;
+}
+
+.item-layer {
+    font-size: 10px;
+    cursor: pointer;
+    padding: 8px;
+    text-align: center;
+}
+
+.title-layer {
+    padding-left: 8px;
+}

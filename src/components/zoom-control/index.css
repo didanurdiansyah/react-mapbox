@@ -1,0 +1,41 @@
+.btn-zoom-bottom,
+.btn-zoom-top {
+    background-color: #fff;
+    color: #017E7A;
+    padding: 8px;
+    padding-top: 10px;
+    border: 0px;
+    font-weight: bolder;
+    display: block;
+    width: 38px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn-zoom-bottom:hover img,
+.btn-zoom-top:hover img{
+    filter: brightness(200);
+}
+
+.btn-zoom-bottom:hover,
+.btn-zoom-top:hover {
+    background-color: #017E7A;
+    cursor: pointer;
+}
+
+.btn-zoom-top {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.btn-zoom-bottom {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.control-zoom {
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 10;
+}
