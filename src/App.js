@@ -6,6 +6,7 @@ import ZoomControl from "./components/zoom-control";
 import Layer from "./components/layer"
 
 import Map from "./components/map"
+
 import { useState } from "react";
 
 function App() {
@@ -20,14 +21,14 @@ function App() {
   }
   
   return (
-    <div className="App">
+    <>
       <Map zoom={zoom}/>
       <Layer />
       <ZoomControl onZoomIn={onZoomIn} onZoomOut={onZoomOut}/>
       <LoginButton />
       <Search />
       <Legenda />
-    </div>
+    </>
   );
 }
 

@@ -1,0 +1,25 @@
+.type-info-popup {
+    font-size: 12px;
+    color: #017E7A;
+}
+
+.type-info-popup img{
+    margin-right: 5px;
+    position: relative;
+    top: 4px;
+}
+
+.popup {
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.label-popup {
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.info-popup {
+    font-size: 10px;
+    color: #888;
+}
