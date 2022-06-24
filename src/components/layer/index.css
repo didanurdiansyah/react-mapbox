@@ -19,9 +19,14 @@
     cursor: pointer;
     padding: 8px;
     text-align: center;
+    position: relative;
 }
 
 .item-layer img:hover {
+    filter: brightness(0.5);
+}
+
+.item-layer .active .img-layer {
     filter: brightness(0.5);
 }
 
@@ -60,4 +65,11 @@
 
 .d-show {
     display: block !important;
+}
+
+.check {
+    position: absolute;
+    top: 28px;
+    left: 28px;
+    filter: brightness(200);
 }
