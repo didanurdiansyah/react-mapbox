@@ -20,7 +20,7 @@ const MapBox = ({ zoom }) => {
           }}
         >
           Tessdds
-          <img alt='' src="/img/ballon-marker.png" width={50}/>
+          <img alt='' src="/img/ballon-marker.png" width={80}/>
         </Marker>
       ,
     []
@@ -43,8 +43,8 @@ const MapBox = ({ zoom }) => {
       {showPopUp && (
         <Popup
           anchor="bottom"
-          longitude={107.6065510208586} 
-          latitude={-6.94135924924411} 
+          longitude={107.6099510200586} 
+          latitude={-6.92485924924411} 
           onClose={() => setShowPopUp(false)}
         >
           <PopUpMarker />

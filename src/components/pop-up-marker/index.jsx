@@ -6,7 +6,7 @@ const layer = () => {
   return (
     <div className="popup">
         <div className="img-popup">
-          <img alt="" src="/img/img-placeholder.png" height={90} width='100%' />
+          <img alt="" src="/img/img-placeholder.png" height={130} width='100%' />
         </div>
         <div className="type-info-popup">
           <img alt="" src="/img/icon-jembatan.png" height={16} />
