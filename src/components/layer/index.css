@@ -1,7 +1,7 @@
 .layer {
     position: absolute;
     z-index: 100;
-    left: 120px;
+    left: 140px;
     bottom: 40px;
     padding: 8px;
     background-color: #fff;
@@ -21,6 +21,43 @@
     text-align: center;
 }
 
+.item-layer img:hover {
+    filter: brightness(0.5);
+}
+
 .title-layer {
     padding-left: 8px;
+}
+
+.layer-button {
+    padding: 6px;
+    padding-bottom: 4px;
+    border-radius: 10px;
+    cursor: pointer;
+    position: absolute;
+    left: 60px;
+    bottom: 40px;
+    background-color: #fff;
+}
+
+.layer-button img {
+    box-shadow: inset 0 0 10px #000000;
+    border-radius: 10px;
+    filter: brightness(0.7);
+}
+
+.layer-title {
+    position: absolute;
+    bottom: 12px;
+    color: #fff;
+    font-size: 10px;
+    left: 12px
+}
+
+.d-none {
+    display: none !important;
+}
+
+.d-show {
+    display: block !important;
 }
